@@ -1,0 +1,12 @@
+.cardContainer{
+    height: auto;
+    width: 300px;
+    box-shadow: 1px 1px 5px rgb(221, 221, 221);
+}
+.imgContainer{
+    height: 300px;
+}
+.imgContainer img{
+    width: 200px;
+    height: inherit;
+}

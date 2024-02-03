@@ -1,0 +1,12 @@
+.container{
+    min-height: 100vh;
+
+    
+}
+.checkContainer{
+    width: 700px;
+}
+.checkBasket{
+    box-shadow: 1px 1px 5px rgb(221, 221, 221);
+    height: fit-content;
+}

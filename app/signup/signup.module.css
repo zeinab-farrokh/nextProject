@@ -1,0 +1,70 @@
+.container{
+  min-height: 100vh;
+ 
+    margin-top: 110px;
+
+}
+.formContainer {
+ 
+  width: fit-content;
+  height: fit-content;
+}
+.formDetails {
+  display: flex;
+  flex-direction: column;
+  min-width: 450px;
+  padding: 16px;
+}
+
+
+.formDetails > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.container input {
+  height: 36px;
+  padding: 8px;
+
+
+}
+.container label {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  margin-left: 4px;
+}
+
+.container button {
+  width: 100%;
+  height: 32px;
+
+}
+.haveAccount {
+  display: flex;
+}
+.haveAccount span {
+  color: blue;
+}
+.container p {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  margin-left: 4px;
+}
+
+@media (max-width: 992px) {
+  .formDetails{
+    min-width: 350px;
+  }
+  .formContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .formContainer img {
+    height: 400px;
+    background-size: cover;
+  }
+}

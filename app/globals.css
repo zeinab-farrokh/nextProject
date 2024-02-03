@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-weight: 100;
+    
+    box-sizing: border-box;
+}
+.marginAll{
+    margin-top: 160px;
+}
+.container{
+    min-height: 100vh;
+}
+.w-100{
+    width: 100%;
+}
+.w-btn{
+    width: 30px;
+    height: 30px;
+}
+.icon-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 992px) {
+    .marginAll{
+        margin-top: 110px;
+    }
+}

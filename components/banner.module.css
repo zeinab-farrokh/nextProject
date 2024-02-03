@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    margin-top: 150px;
+
+}
+.container img{
+    width: inherit;
+}
+@media only screen and (min-width: 992px) {
+    .container {
+        margin-top: 20px;
+    }
+}
