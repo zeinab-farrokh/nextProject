@@ -4,7 +4,7 @@ import Menu from "@/components/Menu";
 
 import "./globals.css";
 import localFont from "next/font/local";
-import NextAuthProvider from "@/providers/nextAuthProvider";
+import NextAuthProvider from "../providers/nextAuthProvider";
 import { Provider } from "react-redux";
 import store from "@/redux/store";
 import Providers from "@/redux/Providers";
